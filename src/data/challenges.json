@@ -2,159 +2,159 @@
   "python": [
     {
       "id": "py_fill_1",
-      "prompt_start": "numbers = [1, 2, 3]\nnumbers.",
-      "prompt_end": "(4)",
+      "prompt_start": "numbers = [1, 2, 3]\nnumbers._________('4')",
+      "prompt_end": "",
       "answer": "append"
     },
     {
       "id": "py_fill_2",
-      "prompt_start": "def greet(name):\n  ",
-      "prompt_end": " 'Hello, ' + name\ngreet('Player')",
+      "prompt_start": "def greet(name):\n  _________ 'Hello, ' + name",
+      "prompt_end": "",
       "answer": "return"
     },
     {
       "id": "py_fill_3",
-      "prompt_start": "print(",
-      "prompt_end": "(\"UNO!\"))",
-      "answer": "len"
+      "prompt_start": "my_list = [1, 2, 3, 4]\nprint(len(my_list))",
+      "prompt_end": "",
+      "answer": "4"
     },
     {
       "id": "py_fill_4",
-      "prompt_start": "for card ",
-      "prompt_end": " my_hand:\n  print(card)",
+      "prompt_start": "for card _________ my_hand:\n  print(card)",
+      "prompt_end": "",
       "answer": "in"
     },
     {
       "id": "py_fill_5",
-      "prompt_start": "if color == 'Red'",
+      "prompt_start": "if color == 'Red'_________:",
       "prompt_end": "\n  print('The color is Red')",
-      "answer": ":"
+      "answer": ""
     },
     {
       "id": "py_fill_6",
-      "prompt_start": "player_scores = { 'p1': 50, ",
-      "prompt_end": ": 100 }",
+      "prompt_start": "player_scores = { 'p1': 50, _________: 100 }",
+      "prompt_end": "",
       "answer": "'p2'"
     },
     {
       "id": "py_fill_7",
-      "prompt_start": "my_string = \"CodeUNO\"\nprint(my_string[",
-      "prompt_end": "])",
+      "prompt_start": "my_string = 'Code'\nprint(my_string[_________])",
+      "prompt_end": "",
       "answer": "0"
     },
     {
       "id": "py_fill_8",
-      "prompt_start": "import ",
-      "prompt_end": "\nprint(random.randint(1, 10))",
+      "prompt_start": "import _________\nprint(random.randint(1, 10))",
+      "prompt_end": "",
       "answer": "random"
     },
     {
       "id": "py_fill_9",
-      "prompt_start": "x = ",
-      "prompt_end": "(\"5\")\nprint(x + 1)",
-      "answer": "int"
+      "prompt_start": "x = int('5')\nprint(x + 1)",
+      "prompt_end": "",
+      "answer": "6"
     },
     {
       "id": "py_fill_10",
-      "prompt_start": "is_game_over = ",
-      "prompt_end": "\nif is_game_over:\n  print('Game Over')",
+      "prompt_start": "is_game_over = _________\nif is_game_over:\n  print('Game Over')",
+      "prompt_end": "",
       "answer": "True"
     },
     {
       "id": "py_fill_11",
-      "prompt_start": "my_hand.",
-      "prompt_end": "('Red 7')",
+      "prompt_start": "my_hand._________('Red 7')",
+      "prompt_end": "",
       "answer": "remove"
     },
     {
       "id": "py_fill_12",
-      "prompt_start": "",
-      "prompt_end": " This is a comment in Python",
+      "prompt_start": "_________ This is a comment in Python",
+      "prompt_end": "",
       "answer": "#"
     },
     {
       "id": "py_fill_13",
-      "prompt_start": "x = 10\ny = 5\nprint(x ",
-      "prompt_end": " y) # Check for equality",
-      "answer": "=="
+      "prompt_start": "x = 10\ny = 5\nprint(x == y)",
+      "prompt_end": "",
+      "answer": "False"
     },
     {
       "id": "py_fill_14",
-      "prompt_start": "colors = ('Red', 'Green', 'Blue')\nprint(colors[",
-      "prompt_end": "]) # Access the second element",
+      "prompt_start": "colors = ('Red', 'Green', 'Blue')\nprint(colors[_________])",
+      "prompt_end": "",
       "answer": "1"
     },
     {
       "id": "py_fill_15",
-      "prompt_start": "message = \"hello\"\nprint(message.",
-      "prompt_end": "())",
-      "answer": "upper"
+      "prompt_start": "message = 'hello'\nprint(message.upper())",
+      "prompt_end": "",
+      "answer": "HELLO"
     },
     {
       "id": "py_fill_16",
-      "prompt_start": "class ",
-      "prompt_end": ":\n  def __init__(self, name):\n    self.name = name",
+      "prompt_start": "class _________:\n  def __init__(self, name):\n    self.name = name",
+      "prompt_end": "",
       "answer": "Player"
     },
     {
       "id": "py_fill_17",
-      "prompt_start": "with open('scores.txt', ",
-      "prompt_end": ") as f:\n  f.write('Player1: 100')",
-      "answer": "'w'"
+      "prompt_start": "with open('scores.txt', 'w') as f:\n  f._________('Player1: 100')",
+      "prompt_end": "",
+      "answer": "write"
     },
     {
       "id": "py_fill_18",
-      "prompt_start": "if color != ",
-      "prompt_end": "'Blue':\n  print('Not Blue')",
-      "answer": ""
+      "prompt_start": "if color != 'Blue':\n  print('Not Blue')",
+      "prompt_end": "",
+      "answer": "Not Blue"
     },
     {
       "id": "py_fill_19",
-      "prompt_start": "for i in ",
-      "prompt_end": "(5):\n  print(i)",
+      "prompt_start": "for i in _________(5):\n  print(i)",
+      "prompt_end": "",
       "answer": "range"
     },
     {
       "id": "py_fill_20",
-      "prompt_start": "x = ",
-      "prompt_end": " y: y * y\nprint(x(5))",
-      "answer": "lambda"
+      "prompt_start": "x = 10\ny = 20\nx, y = y, x\nprint(x)",
+      "prompt_end": "",
+      "answer": "20"
     }
   ],
   "java": [
     {
       "id": "java_fill_1",
-      "prompt_start": "public class Main {\n  public static void main(String[] args) {\n    System.out.",
-      "prompt_end": "(\"Hello World\");\n  }\n}",
+      "prompt_start": "public class Main {\n  public static void main(String[] args) {\n    System.out._________(\"Hello World\");\n  }\n}",
+      "prompt_end": "",
       "answer": "println"
     },
     {
       "id": "java_fill_2",
-      "prompt_start": "String[] cars = {\"Volvo\", \"BMW\", \"Ford\"};\n",
-      "prompt_end": " (String i : cars) {\n  System.out.println(i);\n}",
+      "prompt_start": "String[] cars = {\"Volvo\", \"BMW\", \"Ford\"};\n_________ (String i : cars) {\n  System.out.println(i);\n}",
+      "prompt_end": "",
       "answer": "for"
     },
     {
       "id": "java_fill_3",
-      "prompt_start": "int myNum = 9;\nfloat myFloatNum = myNum;\nSystem.out.println(",
-      "prompt_end": ");",
-      "answer": "myFloatNum"
+      "prompt_start": "int myNum = 9;\nfloat myFloatNum = myNum;\nSystem.out.println(myFloatNum);",
+      "prompt_end": "",
+      "answer": "9.0"
     },
     {
       "id": "java_fill_4",
-      "prompt_start": "String txt = \"CodeUNO\";\nSystem.out.println(txt.",
-      "prompt_end": "());",
-      "answer": "length"
+      "prompt_start": "String txt = \"CodeUNO\";\nSystem.out.println(txt.length());",
+      "prompt_end": "",
+      "answer": "7"
     },
     {
       "id": "java_fill_5",
-      "prompt_start": "public ",
-      "prompt_end": " void myMethod() {\n  System.out.println(\"I just got executed!\");\n}",
+      "prompt_start": "public _________ void myMethod() {\n  System.out.println(\"I just got executed!\");\n}",
+      "prompt_end": "",
       "answer": "static"
     },
     {
       "id": "java_fill_6",
-      "prompt_start": "if (20 > 18) ",
+      "prompt_start": "if (20 > 18) _________",
       "prompt_end": "\n  System.out.println(\"20 is greater than 18\");\n}",
       "answer": "{"
     },
@@ -166,105 +166,105 @@
     },
     {
       "id": "java_fill_8",
-      "prompt_start": "",
-      "prompt_end": " This is a single-line comment",
+      "prompt_start": "_________ This is a single-line comment",
+      "prompt_end": "",
       "answer": "//"
     },
     {
       "id": "java_fill_9",
-      "prompt_start": "String greeting = ",
-      "prompt_end": "\"Hello\";",
-      "answer": ""
+      "prompt_start": "String greeting = \"Hello\"",
+      "prompt_end": "",
+      "answer": ";"
     },
     {
       "id": "java_fill_10",
-      "prompt_start": "boolean isJavaFun = ",
-      "prompt_end": ";",
+      "prompt_start": "boolean isJavaFun = _________;",
+      "prompt_end": "",
       "answer": "true"
     },
     {
       "id": "java_fill_11",
-      "prompt_start": "int x = 10;\n",
-      "prompt_end": ";",
+      "prompt_start": "int x = 10;\n_________;\nSystem.out.println(x);",
+      "prompt_end": "",
       "answer": "x++"
     },
     {
       "id": "java_fill_12",
-      "prompt_start": "int[] myNumbers = ",
-      "prompt_end": "1, 2, 3};",
-      "answer": "{ "
+      "prompt_start": "int[] myNumbers = _________ 1, 2, 3};",
+      "prompt_end": "",
+      "answer": "{"
     },
     {
       "id": "java_fill_13",
-      "prompt_start": "class Main ",
-      "prompt_end": " Vehicle { ... }",
+      "prompt_start": "class Main _________ Vehicle { ... }",
+      "prompt_end": "",
       "answer": "extends"
     },
     {
       "id": "java_fill_14",
-      "prompt_start": "import java.util.",
-      "prompt_end": ";",
-      "answer": "Scanner"
+      "prompt_start": "import java.util.Scanner",
+      "prompt_end": "",
+      "answer": ";"
     },
     {
       "id": "java_fill_15",
-      "prompt_start": "public ",
-      "prompt_end": " myMethod() { ... }",
+      "prompt_start": "public _________ myMethod() { ... }",
+      "prompt_end": "",
       "answer": "void"
     },
     {
       "id": "java_fill_16",
-      "prompt_start": "Math.",
-      "prompt_end": "(64);",
+      "prompt_start": "Math._________ (64);",
+      "prompt_end": "",
       "answer": "sqrt"
     },
     {
       "id": "java_fill_17",
-      "prompt_start": "String firstName = \"John \";\nString lastName = \"Doe\";\nSystem.out.println(firstName.",
-      "prompt_end": "(lastName));",
-      "answer": "concat"
+      "prompt_start": "String firstName = \"John \";\nString lastName = \"Doe\";\nSystem.out.println(firstName + lastName);",
+      "prompt_end": "",
+      "answer": "John Doe"
     },
     {
       "id": "java_fill_18",
-      "prompt_start": "try {\n  int[] myNumbers = {1, 2, 3};\n  System.out.println(myNumbers[10]);\n} ",
-      "prompt_end": " (Exception e) {\n  System.out.println(\"Something went wrong.\");\n}",
+      "prompt_start": "try {\n  int[] myNumbers = {1, 2, 3};\n  System.out.println(myNumbers[10]);\n} _________ (Exception e) {\n  System.out.println(\"Something went wrong.\");\n}",
+      "prompt_end": "",
       "answer": "catch"
     },
     {
       "id": "java_fill_19",
-      "prompt_start": "final ",
-      "prompt_end": " PI = 3.14;",
-      "answer": "double"
+      "prompt_start": "final double PI = 3.14;\nSystem.out.println(PI);",
+      "prompt_end": "",
+      "answer": "3.14"
     },
     {
       "id": "java_fill_20",
-      "prompt_start": "int i = 0;\n",
-      "prompt_end": " (i < 5) {\n  System.out.println(i);\n  i++;\n}",
+      "prompt_start": "int i = 0;\n_________ (i < 5) {\n  System.out.println(i);\n  i++;\n}",
+      "prompt_end": "",
       "answer": "while"
     }
   ],
   "c": [
     {
       "id": "c_fill_1",
-      "prompt_start": "#include <stdio.h>\n\nint main() {\n  ",
-      "prompt_end": "(\"Hello World!\");\n  return 0;\n}",
+      "prompt_start": "#include <stdio.h>\n\nint main() {\n  _________(\"Hello World!\");\n  return 0;\n}",
+      "prompt_end": "",
       "answer": "printf"
     },
     {
       "id": "c_fill_2",
-      "prompt_start": "int myNum = 15;\nprintf(\"%",
-      "prompt_end": "\", myNum);",
-      "answer": "d"
+      "prompt_start": "int myNum = 15;\nprintf(\"%d\", myNum);",
+      "prompt_end": "",
+      "answer": "15"
     },
     {
       "id": "c_fill_3",
-      "prompt_start": "#",
-      "prompt_end": " <stdio.h>",
+      "prompt_start": "#_________ <stdio.h>",
+      "prompt_end": "",
       "answer": "include"
     },
     {
       "id": "c_fill_4",
-      "prompt_start": "int main() ",
+      "prompt_start": "int main() _________",
       "prompt_end": "\n  return 0;\n}",
       "answer": "{"
     },
@@ -282,88 +282,87 @@
     },
     {
       "id": "c_fill_7",
-      "prompt_start": "char myLetter = ",
-      "prompt_end": "'D';",
-      "answer": ""
+      "prompt_start": "char myLetter = 'D'",
+      "prompt_end": "",
+      "answer": ";"
     },
     {
       "id": "c_fill_8",
-      "prompt_start": "int x = 5, y = 6, sum = x ",
-      "prompt_end": " y;",
+      "prompt_start": "int x = 5, y = 6, sum = x _________ y;",
+      "prompt_end": "",
       "answer": "+"
     },
     {
       "id": "c_fill_9",
-      "prompt_start": "int myNumbers[4] = {25, 50, 75, 100};\nprintf(\"%d\", myNumbers[",
-      "prompt_end": "]);",
+      "prompt_start": "int myNumbers[4] = {25, 50, 75, 100};\nprintf(\"%d\", myNumbers[_________]);",
+      "prompt_end": "",
       "answer": "0"
     },
     {
       "id": "c_fill_10",
-      "prompt_start": "int myNum = 10;\nint* ",
-      "prompt_end": " = &myNum;",
-      "answer": "ptr"
+      "prompt_start": "int myNum = 10;\nint* ptr = &myNum;\nprintf(\"%d\", *ptr);",
+      "prompt_end": "",
+      "answer": "10"
     },
     {
       "id": "c_fill_11",
-      "prompt_start": "void myFunction() ",
-      "prompt_end": "\n  printf(\"I just got executed!\");\n}",
+      "prompt_start": "void myFunction() _________ { ... }",
+      "prompt_end": "",
       "answer": "{"
     },
     {
       "id": "c_fill_12",
-      "prompt_start": "int i;\n",
-      "prompt_end": " (i = 0; i < 5; i++) {\n  printf(\"%d\\n\", i);\n}",
+      "prompt_start": "int i;\n_________ (i = 0; i < 5; i++) {\n  printf(\"%d\\n\", i);\n}",
+      "prompt_end": "",
       "answer": "for"
     },
     {
       "id": "c_fill_13",
-      "prompt_start": "#include <string.h>\n",
-      "prompt_end": " s1, s2);",
-      "answer": "strcmp("
+      "prompt_start": "char s1[] = \"Hello\";\nchar s2[] = \"Hello\";\nint result = strcmp(s1, s2);\nprintf(\"%d\", result);",
+      "prompt_end": "",
+      "answer": "0"
     },
     {
       "id": "c_fill_14",
-      "prompt_start": "struct Player {\n  int score;\n}",
+      "prompt_start": "struct Player {\n  int score;\n} _________",
       "prompt_end": "",
       "answer": ";"
     },
     {
       "id": "c_fill_15",
-      "prompt_start": "int x = 10;\nif (x ",
-      "prompt_end": " 9) {\n  printf(\"Hello\");\n}",
-      "answer": ">"
+      "prompt_start": "int x = 10;\nif (x > 9) {\n  printf(\"Hello\");\n}",
+      "prompt_end": "",
+      "answer": "Hello"
     },
     {
       "id": "c_fill_16",
-      "prompt_start": "int num;\nscanf(\"%d\", ",
-      "prompt_end": "num);",
+      "prompt_start": "int num;\nscanf(\"%d\", &num);",
+      "prompt_end": "",
       "answer": "&"
     },
     {
       "id": "c_fill_17",
-      "prompt_start": "return ",
-      "prompt_end": ";",
+      "prompt_start": "return _________;",
+      "prompt_end": "",
       "answer": "0"
     },
     {
       "id": "c_fill_18",
-      "prompt_start": "// This is a ",
+      "prompt_start": "// This is a _________",
       "prompt_end": "",
       "answer": "comment"
     },
     {
       "id": "c_fill_19",
-      "prompt_start": "int* ptr = ",
-      "prompt_end": "(10 * sizeof(int));",
-      "answer": "malloc"
+      "prompt_start": "int* ptr = (int*)malloc(10 * sizeof(int));\nif (ptr == NULL) {\n  printf('Memory not allocated.');\n}",
+      "prompt_end": "",
+      "answer": "Memory not allocated."
     },
     {
       "id": "c_fill_20",
-      "prompt_start": "void ",
-      "prompt_end": "myFunction() {\n  printf(\"Hi\");\n}",
-      "answer": ""
+      "prompt_start": "void _________() {\n  printf('Hi');\n}",
+      "prompt_end": "",
+      "answer": "myFunction"
     }
   ]
 }
-
